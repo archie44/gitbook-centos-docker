@@ -15,7 +15,7 @@ RUN cd ${APP_ROOT}/docs && \
     gitbook install
 
 WORKDIR ${APP_ROOT}
-sleep 2
+SLEEP 2
 EXPOSE 4000
 
 # Do the thing
